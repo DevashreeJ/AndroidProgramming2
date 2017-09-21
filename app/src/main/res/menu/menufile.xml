@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.devas.lab3.MainActivity">
+
+    <item
+        android:id="@+id/task1"
+        android:orderInCategory="100"
+        android:title="First Page"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/task2"
+        android:orderInCategory="100"
+        android:title="View Pager"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/task3"
+        android:orderInCategory="100"
+        android:title="Master Detail"
+        app:showAsAction="never"/>
+</menu>
